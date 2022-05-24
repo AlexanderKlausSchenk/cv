@@ -1,0 +1,16 @@
+
+body {
+	background-color: rgb(42, 42, 47);
+	margin: 0;
+	color: rgb(255, 255, 180);
+	font-family: "Helvetica";
+	line-height: 150%; 
+}
+
+  #Photo {
+      margin-right: 30px;
+  }
+
+  #Kopf {
+  		line-height: 50%;
+  }
