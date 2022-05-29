@@ -103,14 +103,15 @@ h4 {
 }
 
 #Kontaktformular {
-  background-image: url(Bilder/wald.png);
+  background-image: url(Bilder/wald-transparent.png);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
   color: black;
-  font-size: 1.2rem;
-  margin: 10% 20%;
-  padding: 4rem;
+  font-size: 1.1rem;
+  font-family: Arial black, sans-serif;
+  margin: 30px 20%;
+  padding: 10% 20%;
 }
 
 #references-img {
