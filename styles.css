@@ -1,0 +1,192 @@
+/******************+****** TAG-SELECTORS ****************************/
+a {
+  color: rgb(40, 40, 40);
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0F2463;
+}
+
+body {
+	color: rgb(15, 75, 107);
+  font-size: 1.4em;
+  font-family: Montserrat, sans-serif;
+	line-height: 200%; 
+}
+
+hr { 
+  border-color: rgb(15, 75, 107);
+ 	border-style: none;
+ 	border-top-style: dotted;
+ 	border-width: 5px;
+  margin: 30px;
+ 	width: 10%;
+ }
+
+ h1 {
+ 	color: rgb(15, 75, 107);
+  font-family: Sacramento, cursive;
+ }
+
+h3 {
+ 	color: rgb(15, 75, 107);
+  font-family: Arial black, sans-serif;
+ }
+
+h4 {
+  font-family: Arial black, sans-serif;
+ }
+
+ /************************ CLASS-SELECTORS ****************************/
+
+.col-career {
+  padding: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.Darksegment {
+  background-color: rgb(15, 75, 107);
+  padding: 30px 20%;
+  color: white;
+}
+
+.download-icon {
+  width: 25px;
+  padding-right: 5px;
+}
+
+.form-group .form-control {
+    border: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#009688)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#009688, #009688), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#009688, #009688), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
+    -webkit-background-size: 0 2px, 100% 1px;
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center -webkit-calc(100% - 1px);
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: background 0s ease-out;
+    -o-transition: background 0s ease-out;
+    transition: background 0s ease-out;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.laser {
+  padding: 30px;
+}
+
+.navbar-toggler {
+  margin-right: 5%;
+}
+
+.table-career {
+  margin: 3rem;
+  line-height: 200%;
+}
+
+/***************** VIDEO BACKGROUND ********************/
+
+video {
+
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: white;
+  background-size: cover;
+
+/*
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; */
+}
+.video-wrapper {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+.header{
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+} 
+*/
+
+ /************************* ID-SELECTORS ******************************/
+
+.card {
+  margin: 3%;
+}
+
+#contact-header {
+  color: white;
+}
+
+#Foto {
+  height: 200px;
+  margin: 3%;
+  width: 200px;
+  }
+
+#Foto-klein {
+  float: left;
+  margin-right: 70px;
+  margin-left: 10px;
+  }
+
+#header {
+  margin: 7%;
+  font-size: 1.7rem;
+}
+
+#html-img {
+  width: 100px;
+  height: 100px;
+}
+
+#it-table {
+  border-bottom-color: rgb(230, 230, 230);
+}
+
+#Kontaktformular {
+  background-color: rgb(40, 40, 40);
+  border-radius: 20px;
+  border-color: black;
+  color: white;
+  font-size: 1.1rem;
+  font-family: Arial black, sans-serif;
+  margin: 10% 10%;
+  padding: 10% 10%;
+}
+
+#navbar-Inhalt {
+  font-size: 0.9em;
+}
+
+#references-img {
+  width: 100px;
+  height: 100px;
+  margin: 4rem 2rem 4rem 2rem;
+}
+
+
+
